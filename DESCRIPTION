@@ -1,0 +1,17 @@
+Package: stringv
+Type: Package
+Title: Set operations based on string vectors' canonical equivalence
+Version: 0.1.0
+Author: Hafsteinn Ragnarsson
+Author@R: person("Hafsteinn", "Ragnarsson", email = "haffi921@gmail.com", role = c("aut", "cre"))
+Maintainer: Hafsteinn Ragnarsson <haffi921@gmail.com>
+Description: Set operations on string vectors that work of their canonical equivalence.
+    This is identical to base::sets except that strings with special characters (i.e. 'ö')
+    are treated as the same no matter what. This is based on the 'stri_cmp_equiv' function
+    from the package 'stringi' <https://github.com/gagolews/stringi>
+Depends: R (>= 3.4.3)
+Suggested:
+	stringi (>= 1.1.6)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true

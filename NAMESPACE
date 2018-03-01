@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+
+export(strv_union)
+export(strv_intersect)
+export(strv_setdiff)
+export(strv_setequal)
+export(strv_is.element)
